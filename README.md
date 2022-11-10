@@ -11,16 +11,8 @@ Content used in this assignment is based upon information in the following sourc
 
 ## Getting Started
 1. Open terminal.
-
-   If you haven't done this yet, configure your git "identity":
-   ```
-   $ git config --global user.name "FIRST_NAME LAST_NAME"
-   $ git config --global user.email "YOUR_@COLLEGE_EMAIL"
-   ```
-2. Make sure your current working directory is `~/cs150/lab`. Navigate to this directory if needed.
-3. Clone this repository using `git clone <REPO_URL> lab11`. This should create a folder `lab11` under `~/cs150/lab`.
-4. Change directory into `lab11`. 
-5. Open Visual Studio Code by typing in the terminal `code .`
+2. Make sure your current working directory is `~/cs150/lab/lab11`. Navigate to this directory if needed.
+3. Open Visual Studio Code by typing in the terminal `code .`
 
 ![Card Game Relationship](assets/card-game-relationship.jpg)
 
@@ -35,14 +27,6 @@ Content used in this assignment is based upon information in the following sourc
 
 > **IMPORTANT NOTE**: Up to this point, we can ONLY add and remove items from the back or end of a `vector`. This is important to understand and remember in order to complete this lab.
 
-## Part I - Card class
-
-You have already implemented the `Card` class from previous week's lab. Add the following to the `Card` class.
-
-- [ ] Create a constructor for the `Card` class which sets the card's value to -1. 
-- [ ] Turn all the accessor (e.g. getter) functions into constant functions by adding `const` keyword at the end of the function headers in both function prototypes and function definitions.
-- [ ] Verify with instructor that code is correctly done before you proceed to next the next part.
-- [ ] Commit code once completed.
 
 ![52 cards](assets/52cards.jpg)
 
@@ -82,13 +66,6 @@ The `deck.cpp` file is where you will write the class implementation code for th
 - [ ] Make sure that at the top of this file, you include `deck.h`
 - [ ] Make sure that each function has a function header comment.
 - [ ] Commit your code with message `"Deck class implementation file created"`
-
-- [ ] Implement `Deck()`. Commit code once completed.
-- [ ] Implement `bool isEmpty()`. Commit code once completed.
-- [ ] Implement `void printUndealtDeck()`. Commit code once completed.
-- [ ] Implement `void printDealtDeck()`. Commit code once completed.
-- [ ] Implement `void reset()`. Commit code once completed.
-- [ ] Implement `Card dealCard()`. Commit code once completed.
 
 ```cpp
 // Code implementation of the Deck member functions goes inside this file
